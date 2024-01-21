@@ -20,8 +20,7 @@ for i in text:
     else:
         pass
 
-exclamation = re.findall('!', text)
-count_excl = len(exclamation)
+count_excl = text.count('!')
 
 print('У вашому тексті:\n - кількість цифр: ', count_num)
 print(' - кількість розділових знаків: ', count_punctuation)
